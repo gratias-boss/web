@@ -1,0 +1,11 @@
+table{border-collapse: collapse;}
+/* Mettre une bordure sur les td ET les th */
+td, th {border: 2px solid black ; text-align: center; vertical-align: middle;}
+th {background-color: blue;}
+.rien {border-collapse: separate; border-color: white;}
+body{background-color: }
+.vertical{vertical-align: middle;width: 100%;height: 80%;}
+.cool{background-color: yellowgreen;}
+.coool{background-color: aqua;}
+button{background-color: blue;}
+a{color: aliceblue;text-decoration: none;}

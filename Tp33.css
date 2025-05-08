@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, red, green)
+  color: #fff;
+  text-align: center;
+  animation: fadeIn 2s ease-in;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 50px 20px;
+}
+h1 {
+  font-size: 3em;
+  margin: 0;
+  text-shadow: 2px 2px #000;
+}
+p {
+  font-size: 1.2em;
+}
+.button {
+  margin-top: 20px;
+  background-color:red;
+  color: #000;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: green;
+  transform: scale(1.1);
+}
+section {
+  padding: 50px 20px;
+}
+footer {
+  background-color: #111;
+  padding: 20px;
+  font-size: 0.9em;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+</style>

@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
+<head>
+<title>Bienvenue sur mon site !</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet"type="text/css"href="t4.css"media="all"/>
+<style> table{width: 100%;;}.nul{vertical-align:auto;} </style>
+</head>
+<body style="background-color:green;color: aliceblue;">
+        <strong><h1>FORMULAIRE D'ETUDE</h1></strong>
+       <form method="post" action="treament.php">
+                 <fieldset>
+                       <legend style="text-align: center;">ETAT CIVIL</legend>
+                          <table>
+                              <tr>
+                                    <td><label for="MATRICULE">MATRICULE:</label><input type="text" name="MATRICULE" id="MATRICULE"tabindex="10"/></td>
+                                    <td><label for="NOM">NOM:</label><input type="text" name="NOM" id="NOM" tabindex="20"/></td>
+                              </tr>
+                              <tr>
+                                    <td><label for="PRENOM">PRENOM:</label><input type="text" name="PRENOM" id="PRENOM" tabindex="30"/></td>
+                                    <td><label for="SEX">SEX:</label><select name="SEX" id="SEX" width:100%>
+                                          <option value="HOMME">HOMME</option>
+                                          <option value="FEMME">FEMME</option>
+                                    </select>
+                                    </td>
+                              </tr>
+                              <tr>
+                                   <td><label for="MATRICULE">MATRICULE:</label><input type="text" name="MATRICULE" id="MATRICULE" tabindex="60"/></td>
+                                   <td><label for="AGE">AGE:</label><input type="text" name="AGE" id="AGE" tabindex="50"/></td>
+                              </tr>
+                          </table>
+                 </fieldset>
+                 <br/><fieldset>
+                       <legend>DIPLOME</legend>
+                         <table>
+                           <tr>
+                               <td><input type="checkbox" name="CEP" id="CEP" checked="checked"><label for="CEP"> CEP</label></td>
+                               <td><input type="checkbox" name="BEPC" id="BEPC" /><label for="BEPC"> BEPC</label></td>
+                               <td><input type="checkbox" name="BAC" id="BAC" /><label for="BAC"> BAC</label></td>
+                           </tr>
+                         </table>  
+                 </fieldset>
+                 <br/><fieldset>
+                             <legend>EXPERTISE</legend>
+                      <table>
+                           <tr>
+                            <td><input type="radio" name="EXPERTISE" value="EXPERT IT" id="B" /><label for="B"> EXPERT IT</label></td>
+                            <td><input type="radio" name="EXPERTISE" value="EXPERT IA" id="P" /><label for="P"> EXPERT IA</label></td>                     
+                           </tr>
+                      </table>
+                 </fieldset>
+                 <br/><table class="nul">
+                     <tr>
+                           <td><input type="submit"value="ENVOYER"/></td>
+                           <td><input type="reset"value="EFFACER"/></td>
+                           <td><input type="button"value="QUITTER"/></td>
+                     </tr>
+                 </table>
+       </form>
+       
+       <br/><br/><a href="formulaire1.html" style="color: white;"><button><strong>PAGE PRECEDENTE</strong></button></a> <a href="CV.html" style="color:green;"><button><strong>PAGE SUIVANTE</strong></button></a>      
+</body>
